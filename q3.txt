@@ -1,0 +1,15 @@
+update employee
+set birthday = '1998-03-16'
+where id = 100
+returning *;
+
+update employee
+set name = 'Mehmet Yılmaz'
+where id = 100
+returning *;
+
+update employee 
+set birthday = '1982-11-27'
+where email = 'lmacgaffey2@google.pl'
+returning *;
+

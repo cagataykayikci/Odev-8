@@ -1,0 +1,6 @@
+create table employee (
+	id int primary key not null,
+	name varchar(50) not null,
+	birthday date,
+	email varchar(100)
+)
